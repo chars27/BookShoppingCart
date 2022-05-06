@@ -10,6 +10,10 @@ public interface BookService {
 
 	public Book addbook(Book book);
 
-	public Book updateBook(Integer id, Book book);
+	public Book updateBook(Integer id, Book book) throws Exception;
+
+	public double getTotalBookPrice(List<Integer> books);
+
+	public void deleteBookById(Integer id) throws Exception;
 
 }
