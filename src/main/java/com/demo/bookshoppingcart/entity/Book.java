@@ -15,6 +15,20 @@ public class Book {
 	private String author;
 	private double price;
 	
+	public Book() {
+		// TODO Auto-generated constructor stub
+	}	
+	
+	public Book(int id, String title, String author, double price) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.author = author;
+		this.price = price;
+	}
+
+
+
 	public int getId() {
 		return id;
 	}
