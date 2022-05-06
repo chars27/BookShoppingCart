@@ -10,4 +10,6 @@ public interface BookService {
 
 	public Book addbook(Book book);
 
+	public Book updateBook(Integer id, Book book);
+
 }
