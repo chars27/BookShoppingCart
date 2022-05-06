@@ -57,6 +57,7 @@ public class BookController {
 	@GetMapping("/checkout")
 	public double getTotalBookPrice(@RequestParam("books") List<Integer> books)
 	{
+		
 		return bookService.getTotalBookPrice(books);	
 	}
 	

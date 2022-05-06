@@ -42,8 +42,6 @@ public class BookServiceImpl implements BookService {
 		return bookRepository.save(book);
 	}
 
-
-
 	@Override
 	public void deleteBookById(Integer id) throws Exception {
 	
